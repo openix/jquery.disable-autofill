@@ -20,6 +20,7 @@
 			.clone()
 			.removeAttr('id class required')
 			.insertBefore(this.element)
+			.attr('disabled', 'disabled')
 			.hide();
 	};
 
