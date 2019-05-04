@@ -4,12 +4,12 @@ Disable Chrome's autofill. Handy for CRUD forms, when you don't want username/pa
 Usage:
 ```
 <form>
-  <input type="input" name="username" autofill="off">
-  <input type="password" name="password" autofill="off">
+  <input type="input" name="username" autocomplete="off">
+  <input type="password" name="password" autocomplete="off">
 </form>
 
 <script src="jquery.disable-autofill.js"></script>
 <script>
-  $('input[autofill="off"]).disableAutofill();
+  $('input[autocomplete="off"]').disableAutofill();
 </script>
 ```
